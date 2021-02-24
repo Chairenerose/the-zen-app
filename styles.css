@@ -30,7 +30,7 @@ body {
 .instructions {
     animation: 5s bounce infinite ease-in-out;
     font-size: 40px;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 
@@ -99,7 +99,8 @@ p{
 }
 
 footer {
-    margin-top: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 @keyframes spin {
