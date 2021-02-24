@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 120vh;
+    pointer-events: none;
+    opacity: 70%;
+    
+}
+
+.instructions {
+    animation: 5s bounce infinite ease-in-out;
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+
+.container .content {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.loading-spinner{
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    border: 3px solid rgba(255, 255, 255, 0.26);
+    border-radius: 50%;
+    border-top-color: #fff;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    animation: 4s spin infinite ease-in-out;
+    
+}
+
+.affirm{
+    margin-top: -15rem;
+    margin-bottom: 15rem;
+    
+}
+
+h5{
+    max-width: 30rem;
+}
+
+h4 {
+    color: #414449;
+}
+
+p{
+    color: #414449;
+}
+
+.emotion-button{
+    margin-top: 2rem;
+}
+
+.btn-info{
+    background-color: #68718175;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-info:hover{
+    background-color: white;
+    color: #687181;
+    border-color: #687181;
+
+}
+
+.btn-info:focus{
+    background-color: #68718175;
+    color: white;
+    border-color: white;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%,80%,100%{
+        transform: scale(0);
+    }
+    40%{
+        transform: scale(1);
+    }
+}
+
+
+
